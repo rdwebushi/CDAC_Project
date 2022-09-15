@@ -11,7 +11,8 @@ import { LoginComponent } from './login/login.component';
 import { DoctorComponent } from './doctor/doctor.component';
 import { PatientComponent } from './patient/patient.component';
 import { AashaComponent } from './aasha/aasha.component';
-
+import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +27,9 @@ import { AashaComponent } from './aasha/aasha.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule, // reactive forms module are required
+    HttpClientModule  //include HTTP client module
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -9,30 +9,12 @@ import { RegistrationComponent} from './registration/registration.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 
 const routes: Routes = [
-  {
-    path:'',
-    component: HomeComponent
-  },
-  {
-    path:'/login',
-    component: LoginComponent
-  },
-  {
-    path:'/emergency',
-    component: EmergencyComponent
-  },
-  {
-    path:'/patient',
-    component: PatientComponent
-  },
-  {
-    path:'/registration',
-    component: RegistrationComponent
-  },
-  {
-    path:'/aboutus',
-    component: AboutUsComponent
-  }
+  {path:'', component:HomeComponent },
+  {path:'about-us', component:AboutUsComponent},
+  {path:'login', component:LoginComponent},
+  {path:'registration', component:RegistrationComponent},
+  {path:'emergency', component:EmergencyComponent},
+  {path:'patient', component:PatientComponent}
 ];
 
 @NgModule({
