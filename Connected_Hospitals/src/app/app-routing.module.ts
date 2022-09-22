@@ -14,7 +14,8 @@ const routes: Routes = [
   {path:'login', component:LoginComponent},
   {path:'registration', component:RegistrationComponent},
   {path:'emergency', component:EmergencyComponent},
-  {path:'patient', component:PatientComponent}
+  {path:'patient/:user', component:PatientComponent}
+  // user is variable , which help to receive the usernamevalue for path
 ];
 
 @NgModule({

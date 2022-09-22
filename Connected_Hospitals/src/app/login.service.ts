@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
-import { Login } from './login';
+import { Observable } from 'rxjs'; //observables
+import { Login } from './login'; // import module from login component
 
 
 @Injectable({

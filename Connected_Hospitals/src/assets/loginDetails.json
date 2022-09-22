@@ -1,7 +1,7 @@
 [
-  {"user":"Ravindra", "pass":1234},
-  {"user":"Rahul","pass":6789},
-  {"user":"Rushikesh","pass":5432}
+  {"user":"Rushikesh", "pass":1234},
+  {"user":"Snehal","pass":6789},
+  {"user":"Shital","pass":5432}
 
 
 ]

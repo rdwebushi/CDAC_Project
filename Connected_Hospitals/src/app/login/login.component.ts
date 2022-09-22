@@ -17,7 +17,7 @@ export class LoginComponent implements OnInit {
     })
   constructor(public loginSer:LoginService,
     public router:Router) { } // DI for service class.
-
+    msg:string="";
   ngOnInit(): void {
   }
 
@@ -32,12 +32,15 @@ export class LoginComponent implements OnInit {
       // result will ger array(multiple records)
       let message=result.find(l=>l.user==login.user && l.pass==login.pass);
       if(message==undefined){
-          console.log("failuer")
+         // console.log("failuer")
+         this.msg= "Invalid username or password"
       } else{
-        console.log("Sucess")
-        this.router.navigate(["patient"])
-      }
+        // console.log("Sucess")
+        //this.router.navigate(["patient"])
+        this.router.navigate(["patient",login.user]); // append data through url
+     }
     }, error=>console.log(error));
+    this.loginRef.reset();
   }
 
 }

@@ -13,6 +13,8 @@ import { PatientComponent } from './patient/patient.component';
 import { AashaComponent } from './aasha/aasha.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +25,9 @@ import { HttpClientModule } from '@angular/common/http';
     LoginComponent,
     DoctorComponent,
     PatientComponent,
-    AashaComponent
+    AashaComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
