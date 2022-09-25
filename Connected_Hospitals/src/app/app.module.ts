@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { EmergencyComponent } from './emergency/emergency.component';
-import { RegistrationComponent } from './registration/registration.component';
+import { RegistrationComponent } from './login/registration/registration.component';
 import { LoginComponent } from './login/login.component';
 import { DoctorComponent } from './doctor/doctor.component';
 import { PatientComponent } from './patient/patient.component';

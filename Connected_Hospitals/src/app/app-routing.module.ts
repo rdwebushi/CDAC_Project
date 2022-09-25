@@ -5,7 +5,7 @@ import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { EmergencyComponent } from './emergency/emergency.component';
 import { PatientComponent } from './patient/patient.component';
-import { RegistrationComponent} from './registration/registration.component';
+import { RegistrationComponent} from './login/registration/registration.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 
 const routes: Routes = [
