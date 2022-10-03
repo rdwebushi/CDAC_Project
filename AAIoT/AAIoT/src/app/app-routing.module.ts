@@ -4,6 +4,8 @@ import { LoginComponent } from './login/login.component';
 import { RegistrationComponent } from './login/registration/registration.component';
 import { SignInComponent } from './login/sign-in/sign-in.component';
 import { PatientComponent } from './patient/patient.component';
+import { HospitalsComponent } from './hospitals/hospitals.component';
+import { AshaComponent } from './asha/asha.component';
 
 import { AuthGuard } from './auth/auth.guard';
 import { HomeComponent } from './home/home.component';
@@ -26,6 +28,15 @@ const routes: Routes = [
   },
   {
     path:'patient', component:PatientComponent
+  },
+  {
+    path:'hospital', component:HospitalsComponent
+  },
+  {
+    path: 'home', component:HomeComponent
+  },
+  {
+    path:'Asha', component:AshaComponent
   },
   {
     path:'', redirectTo:'/signin',pathMatch:'full'

@@ -27,5 +27,7 @@ app.use((req, res, err, next)=>{
 });
 //'/api/register'
 //start server
-app.listen(process.env.PORT, ()=> console.log(`server started at port: ${process.env.PORT}`));
+app.listen(process.env.PORT, ()=> 
+    console.log(`server started at port: ${process.env.PORT}`)
+    );
 
